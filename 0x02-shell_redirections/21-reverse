@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "my name is malaz" | rev
+rev
