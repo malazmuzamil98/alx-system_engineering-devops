@@ -1,0 +1,1 @@
+shell initiation and alias
