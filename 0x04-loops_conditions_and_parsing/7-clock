@@ -1,1 +1,12 @@
 #!/usr/bin/env bash
+#display the time
+outcount=0
+while [ $outcount -le 12 ]; do
+    echo "Hour: $outcount"
+    incount=1
+    while [ $incount -lt 60 ]; do
+        echo "$incount"
+        ((incount++))
+    done
+    ((outcount++))
+done
