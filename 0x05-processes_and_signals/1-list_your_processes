@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display all running processes
+ps -ef
