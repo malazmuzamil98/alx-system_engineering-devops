@@ -1,0 +1,42 @@
+فبراير 27 14:51:58 hassan-VirtualBox systemd[1]: Starting Docker Application Container Engine...
+فبراير 27 14:51:58 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:58.889611147+03:00" level=info msg="Starting up"
+فبراير 27 14:51:58 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:58.890313007+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+فبراير 27 14:51:58 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:58.944054120+03:00" level=info msg="Loading containers: start."
+فبراير 27 14:51:59 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:59.247440347+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+فبراير 27 14:51:59 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:59.315131560+03:00" level=info msg="Loading containers: done."
+فبراير 27 14:51:59 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:59.360130684+03:00" level=info msg="Docker daemon" commit="24.0.5-0ubuntu1~22.04.1" graphdriver=overlay2 version=24.0.5
+فبراير 27 14:51:59 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:59.360244092+03:00" level=info msg="Daemon has completed initialization"
+فبراير 27 14:51:59 hassan-VirtualBox dockerd[9896]: time="2024-02-27T14:51:59.392350342+03:00" level=info msg="API listen on /run/docker.sock"
+فبراير 27 14:51:59 hassan-VirtualBox systemd[1]: Started Docker Application Container Engine.
+فبراير 27 15:00:07 hassan-VirtualBox systemd[1]: Stopping Docker Application Container Engine...
+فبراير 27 15:00:07 hassan-VirtualBox dockerd[9896]: time="2024-02-27T15:00:07.475889923+03:00" level=info msg="Processing signal 'terminated'"
+فبراير 27 15:00:07 hassan-VirtualBox dockerd[9896]: time="2024-02-27T15:00:07.482897215+03:00" level=info msg="Daemon shutdown complete"
+فبراير 27 15:00:07 hassan-VirtualBox systemd[1]: docker.service: Deactivated successfully.
+فبراير 27 15:00:07 hassan-VirtualBox systemd[1]: Stopped Docker Application Container Engine.
+فبراير 27 15:00:18 hassan-VirtualBox systemd[1]: Starting Docker Application Container Engine...
+فبراير 27 15:00:19 hassan-VirtualBox dockerd[11756]: time="2024-02-27T15:00:19.045592112+03:00" level=info msg="Starting up"
+فبراير 27 15:00:19 hassan-VirtualBox dockerd[11756]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+فبراير 27 15:00:19 hassan-VirtualBox systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+فبراير 27 15:00:19 hassan-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+فبراير 27 15:00:19 hassan-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: Stopped Docker Application Container Engine.
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: Starting Docker Application Container Engine...
+فبراير 27 15:00:21 hassan-VirtualBox dockerd[11851]: time="2024-02-27T15:00:21.241006289+03:00" level=info msg="Starting up"
+فبراير 27 15:00:21 hassan-VirtualBox dockerd[11851]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+فبراير 27 15:00:21 hassan-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: Stopped Docker Application Container Engine.
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: Starting Docker Application Container Engine...
+فبراير 27 15:00:23 hassan-VirtualBox dockerd[11864]: time="2024-02-27T15:00:23.495275833+03:00" level=info msg="Starting up"
+فبراير 27 15:00:23 hassan-VirtualBox dockerd[11864]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+فبراير 27 15:00:23 hassan-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+فبراير 27 15:00:25 hassan-VirtualBox systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+فبراير 27 15:00:25 hassan-VirtualBox systemd[1]: Stopped Docker Application Container Engine.
+فبراير 27 15:00:25 hassan-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Start request repeated too quickly.[0m
+فبراير 27 15:00:25 hassan-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+فبراير 27 15:00:25 hassan-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
