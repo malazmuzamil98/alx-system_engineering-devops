@@ -2,7 +2,7 @@
 
 # update the packages
 sudo apt-get update -y
-
+sudo apt upgrade -y
 # install inginx
 sudo apt-get install nginx -y
 
@@ -19,6 +19,7 @@ sudo chmod -R 755 /var/www
 
 # creating index
 echo 'Hello World!' > /var/www/html/index.html
+echo "Hello World!" | tee /var/www/html/index.nginx-debian.html
 
 # restart nginx
 sudo service nginx restart
